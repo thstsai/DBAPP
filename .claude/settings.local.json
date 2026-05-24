@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"D:\\\\ClaudeWork\\\\DBApp\\\\packages_tmp\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object -First 30 FullName)"
+    ]
+  }
+}
